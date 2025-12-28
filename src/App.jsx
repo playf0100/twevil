@@ -46,7 +46,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="#" element={<Home />} />
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/201415_1" element={<Story201415_1 />} />
         <Route path="/2020_1" element={<Story2020_1 />} />
@@ -78,7 +78,7 @@ function App() {
         <Route path="/judgment_3" element={<Judgment_3 />} />
         <Route path="/judgment_4" element={<Judgment_4 />} />
         <Route path="/pre_judgment" element={<PreJudgment />} />
-        <Route path="/report" element={<Report />} />
+        <Route path="#/report" element={<Report />} />
       </Routes>
       <Footer />
     </>
