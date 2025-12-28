@@ -1,0 +1,593 @@
+
+
+.vertical-timeline h1,.vertical-timeline h2,.vertical-timeline h3{
+    margin:0px;
+}
+.vertical-timeline {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.vertical-timeline .vt-step {
+    position: relative;
+    min-height: 80px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.vertical-timeline .vt-step:first-child {
+    margin-bottom: -15px;
+}
+
+.vt-column {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.vt-column .vt-start-point {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: -5px;
+
+}
+
+.vt-column .vt-start-point::before {
+    content: " ";
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    display: inline-block;
+    box-shadow: -2px 3px 3px #0000004f;
+}
+
+.vt-column .vt-end-point {
+    height: 7px;
+    width: 7px;
+    margin-left: 1.5px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 0px;
+    bottom: -3.5px;
+
+}
+
+/* content */
+.vt-content {
+    position: relative;
+    display: inline-block;
+    padding-top: 5px;
+    margin-top: -76px;
+
+}
+
+/* header */
+.vt-header {
+    height: 80px;
+}
+
+.vt-header .vt-cat {
+    font-size: 36px;
+    display: block;
+
+}
+
+.vt-body p {
+    margin: 10px 0px 0px 0px;
+}
+
+
+/* spliter */
+
+
+.vt-splitter::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    border-radius: 10px;
+    border: solid 4px;
+
+}
+
+.vt-splitter::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    border-radius: 10px;
+}
+
+.vt-splitter .vt-line {
+    border-top: dotted 2px rgb(82, 82, 82);
+    
+}
+
+.vt-splitter .vt-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-top: -45px;
+    border-radius: 50px;
+}
+
+.vt-splitter .vt-icon .vt-icon-wrap {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    display: inline-block;
+    box-shadow: -2px 3px 3px #0000004f;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* body */
+
+.vt-body h3 {
+    margin: 0px;
+}
+
+.vt-body p {
+    font-size: .9rem;
+}
+
+
+
+/* right */
+.vt-right {
+    margin-left: calc(50% - 5px);
+}
+
+.vt-right .vt-column {
+    left: 0;
+}
+
+.vt-right .vt-content {
+
+}
+
+.vt-right .vt-icon {
+    right: 0;
+}
+
+.vt-right .vt-cat {
+    padding: 28px 0 0 40px;
+    text-align: left !important;
+    font-weight: bold;
+}
+
+.vt-right .vt-body {
+    padding: 10px 90px 0 40px;
+    text-align: left !important;
+}
+
+.vt-right .vt-body * {
+    text-align: left !important;
+}
+
+.vt-right .vt-splitter {
+    padding: 0 80px 0 15px;
+
+}
+
+.vt-right .vt-splitter .vt-line {
+    margin: 0px 10px 0 25px;
+}
+
+.vt-right .vt-splitter::before {
+    margin: -6px 0px 0px 20px;
+    border-top-right-radius: 0;
+    left: 0;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+.vt-right .vt-splitter::after {
+    margin: -6px 0px 0px 0px;
+    border-bottom-left-radius: 0;
+    right: 75px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+/* left */
+.vt-left {
+    margin-right: calc(50% - 5px);
+}
+
+.vt-left .vt-column {
+    right: 0;
+}
+
+.vt-left .vt-content {
+    /* padding-right: 20px; */
+
+}
+
+.vt-left .vt-icon {
+    left: 0;
+}
+
+.vt-left .vt-cat {
+    padding: 28px 40px 0 0;
+    font-weight: bold;
+    text-align: right !important;
+}
+
+.vt-left .vt-body {
+    padding: 10px 40px 0 90px;
+    text-align: right !important;
+}
+
+.vt-left .vt-body * {
+    padding: 10px 0px 0 30px;
+    text-align: right !important;
+}
+
+.vt-left .vt-splitter {
+    padding: 0 15px 0 80px;
+
+}
+.vt-left .vt-splitter .vt-line {
+    margin: 0px 25px 0 10px;
+}
+
+.vt-left .vt-splitter::before {
+    margin: -6px 20px 0px 0px;
+    border-bottom-left-radius: 0;
+    right: 0;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.vt-left .vt-splitter::after {
+    margin: -6px 0px 0px 0px;
+    border-top-right-radius: 0;
+    left: 75px;
+
+}
+
+/* blue */
+.vt-blue .vt-column,
+.vt-blue .vt-start-point,
+.vt-blue .vt-end-point,
+.vt-blue .vt-icon,
+.vt-blue .vt-splitter::after {
+    background-color: #22b7cf;
+}
+
+.vt-blue .vt-splitter::before {
+    border-color: #22b7cf;
+}
+
+.vt-blue .vt-title,
+.vt-blue .vt-cat {
+
+    color: #22b7cf;
+}
+
+/* orange */
+.vt-orange .vt-column,
+.vt-orange .vt-start-point,
+.vt-orange .vt-end-point,
+.vt-orange .vt-icon,
+.vt-orange .vt-splitter::after {
+    background-color: #f9a40d;
+}
+
+.vt-orange .vt-splitter::before {
+    border-color: #f9a40d;
+}
+
+.vt-orange .vt-title,
+.vt-orange .vt-cat {
+
+    color: #f9a40d;
+}
+
+/* pink */
+.vt-pink .vt-column,
+.vt-pink .vt-start-point,
+.vt-pink .vt-end-point,
+.vt-pink .vt-icon,
+.vt-pink .vt-splitter::after {
+    background-color: #e58088;
+}
+
+.vt-pink .vt-splitter::before {
+    border-color: #e58088;
+}
+
+.vt-pink .vt-title,
+.vt-pink .vt-cat {
+
+    color: #e58088;
+}
+
+/* navy-blue */
+.vt-navy-blue .vt-column,
+.vt-navy-blue .vt-start-point,
+.vt-navy-blue .vt-end-point,
+.vt-navy-blue .vt-icon,
+.vt-navy-blue .vt-splitter::after {
+    background-color: #486279;
+}
+
+.vt-navy-blue .vt-splitter::before {
+    border-color: #486279;
+}
+
+.vt-navy-blue .vt-title,
+.vt-navy-blue .vt-cat {
+
+    color: #486279;
+}
+
+/* light-blue */
+.vt-light-blue .vt-column,
+.vt-light-blue .vt-start-point,
+.vt-light-blue .vt-end-point,
+.vt-light-blue .vt-icon,
+.vt-light-blue .vt-splitter::after {
+    background-color: #86b8c3;
+}
+
+.vt-light-blue .vt-splitter::before {
+    border-color: #86b8c3;
+}
+
+.vt-light-blue .vt-title,
+.vt-light-blue .vt-cat {
+
+    color: #86b8c3;
+}
+
+/* green */
+.vt-green .vt-column,
+.vt-green .vt-start-point,
+.vt-green .vt-end-point,
+.vt-green .vt-icon,
+.vt-green .vt-splitter::after {
+    background-color: #60c293;
+}
+
+.vt-green .vt-splitter::before {
+    border-color: #60c293;
+}
+
+.vt-green .vt-title,
+.vt-green .vt-cat {
+
+    color: #60c293;
+}
+
+/* Additional color variants */
+/* red */
+.vt-red .vt-column,
+.vt-red .vt-start-point,
+.vt-red .vt-end-point,
+.vt-red .vt-icon,
+.vt-red .vt-splitter::after {
+    background-color: #e74c3c;
+}
+
+.vt-red .vt-splitter::before {
+    border-color: #e74c3c;
+}
+
+.vt-red .vt-title,
+.vt-red .vt-cat {
+    color: #e74c3c;
+}
+
+/* amber */
+.vt-amber .vt-column,
+.vt-amber .vt-start-point,
+.vt-amber .vt-end-point,
+.vt-amber .vt-icon,
+.vt-amber .vt-splitter::after {
+    background-color: #ffb300;
+}
+
+.vt-amber .vt-splitter::before {
+    border-color: #ffb300;
+}
+
+.vt-amber .vt-title,
+.vt-amber .vt-cat {
+    color: #ffb300;
+}
+
+/* yellow */
+.vt-yellow .vt-column,
+.vt-yellow .vt-start-point,
+.vt-yellow .vt-end-point,
+.vt-yellow .vt-icon,
+.vt-yellow .vt-splitter::after {
+    background-color: #f1c40f;
+}
+
+.vt-yellow .vt-splitter::before {
+    border-color: #f1c40f;
+}
+
+.vt-yellow .vt-title,
+.vt-yellow .vt-cat {
+    color: #f1c40f;
+}
+
+/* purple */
+.vt-purple .vt-column,
+.vt-purple .vt-start-point,
+.vt-purple .vt-end-point,
+.vt-purple .vt-icon,
+.vt-purple .vt-splitter::after {
+    background-color: #8e44ad;
+}
+
+.vt-purple .vt-splitter::before {
+    border-color: #8e44ad;
+}
+
+.vt-purple .vt-title,
+.vt-purple .vt-cat {
+    color: #8e44ad;
+}
+
+/* brown */
+.vt-brown .vt-column,
+.vt-brown .vt-start-point,
+.vt-brown .vt-end-point,
+.vt-brown .vt-icon,
+.vt-brown .vt-splitter::after {
+    background-color: #a0522d;
+}
+
+.vt-brown .vt-splitter::before {
+    border-color: #a0522d;
+}
+
+.vt-brown .vt-title,
+.vt-brown .vt-cat {
+    color: #a0522d;
+}
+
+/* teal */
+.vt-teal .vt-column,
+.vt-teal .vt-start-point,
+.vt-teal .vt-end-point,
+.vt-teal .vt-icon,
+.vt-teal .vt-splitter::after {
+    background-color: #14b8a6;
+}
+
+.vt-teal .vt-splitter::before {
+    border-color: #14b8a6;
+}
+
+.vt-teal .vt-title,
+.vt-teal .vt-cat {
+    color: #14b8a6;
+}
+
+/* indigo */
+.vt-indigo .vt-column,
+.vt-indigo .vt-start-point,
+.vt-indigo .vt-end-point,
+.vt-indigo .vt-icon,
+.vt-indigo .vt-splitter::after {
+    background-color: #4f46e5;
+}
+
+.vt-indigo .vt-splitter::before {
+    border-color: #4f46e5;
+}
+
+.vt-indigo .vt-title,
+.vt-indigo .vt-cat {
+    color: #4f46e5;
+}
+
+/* black */
+.vt-black .vt-column,
+.vt-black .vt-start-point,
+.vt-black .vt-end-point,
+.vt-black .vt-icon,
+.vt-black .vt-splitter::after {
+    background-color: #111827; /* near-black */
+}
+
+.vt-black .vt-splitter::before {
+    border-color: #111827;
+}
+
+.vt-black .vt-title,
+.vt-black .vt-cat {
+    color: #111827;
+}
+
+.vt-content {
+    width: 100% !important;
+}
+
+.image-fluid {
+    width: 70% !important;
+    border-radius: 100px;
+}
+
+/* Mobile adjustments: make the icon wrap 30x30 and scale the inner image */
+@media (max-width: 1028px) {
+    .vt-splitter .vt-icon .vt-icon-wrap {
+        height: 30px !important;
+        width: 30px !important;
+        margin: 5px !important;
+        border-radius: 50%;
+    }
+
+    .vt-splitter .vt-icon .vt-icon-wrap img.image-fluid {
+        width: 80% !important; /* keep some padding inside the 30px circle */
+        height: auto !important;
+        border-radius: 50%;
+    }
+    /* Adjust right-side body padding for mid-size/mobile view <=1028px */
+    .vt-right .vt-body {
+        padding: 10px 0 0 40px !important;
+    }
+
+    .vt-left .vt-body {
+        padding: 10px 40px 0 0px !important;
+    }
+
+     .vt-splitter .vt-icon {
+        height: 40px !important;
+        width: 40px !important;
+        margin-top: -20px !important; /* center vertically relative to the line */
+        overflow: hidden;
+    }
+
+    /* Slightly reduce padding in vt-body so content doesn't overlap on small screens */
+    .vt-right .vt-body,
+    .vt-left .vt-body {
+        padding-top: 5px !important;
+    }
+
+    .vt-right .vt-splitter .vt-line {
+        margin: 0px -30px 0 20px;
+    }
+
+    .vt-right .vt-splitter::after{
+        right: 35px;
+    }
+
+    .vt-left .vt-splitter .vt-line{
+        margin: 0px 20px 0 -30px;
+    }
+
+    .vt-left .vt-splitter::after{
+        left: 35px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .vt-header > .vt-cat{
+        font-size: 20px;
+    }
+}
