@@ -73,31 +73,31 @@ export default function Story2025_1() {
                 </div>
 
                 <div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/1.PNG" alt="story 1" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/2.PNG" alt="story 2" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/3.PNG" alt="story 3" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/4.PNG" alt="story 4" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/5.PNG" alt="story 5" /></a></figure></div>
-                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/6.PNG" alt="story 7" /></a></figure></div>
-                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/6.1.JPG" alt="story 6" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/7.PNG" alt="story 7" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/8.JPG" alt="story 8" /></a></figure></div>
-                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/11.JPG" alt="story 11" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/9.PNG" alt="story 9" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/1.PNG" alt="story 1" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/2.PNG" alt="story 2" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/3.PNG" alt="story 3" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/4.PNG" alt="story 4" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/5.PNG" alt="story 5" /></a></figure></div>
+                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/6.PNG" alt="story 7" /></a></figure></div>
+                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/6.1.JPG" alt="story 6" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/7.PNG" alt="story 7" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/8.JPG" alt="story 8" /></a></figure></div>
+                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/11.JPG" alt="story 11" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/9.PNG" alt="story 9" /></a></figure></div>
 								
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/12.JPG" alt="story 12" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/13.JPG" alt="story 13" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/14.JPG" alt="story 14" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/15.JPG" alt="story 15" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/16.JPG" alt="story 16" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/17.JPG" alt="story 17" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/18.JPG" alt="story 18" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/19.JPG" alt="story 19" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/20.JPG" alt="story 20" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/21.JPG" alt="story 21" /></a></figure></div>
-                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/22.JPG" alt="story 20" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/23.JPG" alt="story 21" /></a></figure></div>
-                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2025_1/24.JPG" alt="story 20" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/12.JPG" alt="story 12" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/13.JPG" alt="story 13" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/14.JPG" alt="story 14" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/15.JPG" alt="story 15" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/16.JPG" alt="story 16" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/17.JPG" alt="story 17" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/18.JPG" alt="story 18" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/19.JPG" alt="story 19" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/20.JPG" alt="story 20" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/21.JPG" alt="story 21" /></a></figure></div>
+                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/22.JPG" alt="story 20" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/23.JPG" alt="story 21" /></a></figure></div>
+                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/twevil/assets/images/storys/2025_1/24.JPG" alt="story 20" /></a></figure></div>
 								</div>
               </article>
             </div>

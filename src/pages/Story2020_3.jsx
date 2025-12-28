@@ -69,11 +69,11 @@ export default function Story2020_3() {
                   }
                 </div>
                 <div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2020_3/3.JPG" alt="story 3" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2020_3/4.JPG" alt="story 4" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2020_3/5.JPG" alt="story 5" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2020_3/6.JPG" alt="story 6" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2020_3/7.JPG" alt="story 7" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2020_3/3.JPG" alt="story 3" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2020_3/4.JPG" alt="story 4" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2020_3/5.JPG" alt="story 5" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2020_3/6.JPG" alt="story 6" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2020_3/7.JPG" alt="story 7" /></a></figure></div>
 								</div>
               </article>
             </div>

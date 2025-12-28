@@ -59,8 +59,8 @@ export default function Report() {
                   }
                 </div>
                 <div>
-                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/report/1.JPG" alt="story 1" /></a></figure></div>
-                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/report/2.JPG" alt="story 2" /></a></figure></div>
+                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/report/1.JPG" alt="story 1" /></a></figure></div>
+                  <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/report/2.JPG" alt="story 2" /></a></figure></div>
 								</div>
               </article>
             </div>

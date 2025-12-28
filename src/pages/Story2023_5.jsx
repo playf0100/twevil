@@ -71,31 +71,31 @@ export default function Story2023_5() {
                 <div className="item">
                     <figure className="alith_post_thumb_big">
                       <video controls style={{ maxWidth: '100%', height: 'auto' }}>
-                        <source src="/assets/images/storys/2023_5/14.mov" type="video/mp4" />
+                        <source src="/twevil/assets/images/storys/2023_5/14.mov" type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
                     </figure>
                     <h2>{t('playVideo')}</h2>
                   </div>
                 <div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/1.JPG" alt="story 1" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/2.PNG" alt="story 2" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/3.PNG" alt="story 3" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/4.PNG" alt="story 4" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/5.PNG" alt="story 5" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/6.PNG" alt="story 6" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/7.PNG" alt="story 7" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/8.PNG" alt="story 8" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/9.PNG" alt="story 9" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/10.PNG" alt="story 10" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/11.PNG" alt="story 11" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/12.PNG" alt="story 2" /></a></figure></div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/assets/images/storys/2023_5/13.PNG" alt="story 3" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/1.JPG" alt="story 1" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/2.PNG" alt="story 2" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/3.PNG" alt="story 3" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/4.PNG" alt="story 4" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/5.PNG" alt="story 5" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/6.PNG" alt="story 6" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/7.PNG" alt="story 7" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/8.PNG" alt="story 8" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/9.PNG" alt="story 9" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/10.PNG" alt="story 10" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/11.PNG" alt="story 11" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/12.PNG" alt="story 2" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2023_5/13.PNG" alt="story 3" /></a></figure></div>
 								</div>
                   <div className="item">
                     <figure className="alith_post_thumb_big">
                       <video controls style={{ maxWidth: '100%', height: 'auto' }}>
-                        <source src="/assets/images/storys/2023_5/15.mov" type="video/mp4" />
+                        <source src="/twevil/assets/images/storys/2023_5/15.mov" type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
                       <h2>{t('playVideo')}</h2>
