@@ -5,4 +5,5 @@ export default defineConfig({
   plugins: [react()],
   css: { devSourcemap: false },
   server: { port: 5173, open: true },
+  base: '/twevil/'
 })
