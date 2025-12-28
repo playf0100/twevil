@@ -40,7 +40,7 @@ export default function Footer() {
 <div className="tagline social">
   <ul>
     <li className="facebook">
-      <a href="#" aria-label="facebook"><img src="/assets/images/dcard_icon.png" alt="Dcard" className="footer-social-icon" /></a>
+      <a href="#" aria-label="facebook"><img src="/twevil/assets/images/dcard_icon.png" alt="Dcard" className="footer-social-icon" /></a>
     </li>
     <li className="twitter">
       <a href="#" aria-label="twitter"><i className="fa-brands fa-twitter" /></a>
@@ -63,13 +63,13 @@ export default function Footer() {
                 <div className="col-12 col-md-12">
                   <div className="tagline social">
                     <a href="https://www.dcard.tw/f/relationship/p/259911816" target="_blank" rel="noopener noreferrer" title={social.dcard || 'Dcard'} aria-label={social.dcard || 'dcard'}>
-                      <img src="/assets/images/dcard_icon.png" alt={social.dcard || 'Dcard'} className="footer-social-icon" />
+                      <img src="/twevil/assets/images/dcard_icon.png" alt={social.dcard || 'Dcard'} className="footer-social-icon" />
                     </a>
                     <a href="https://www.xiaohongshu.com/user/profile/68af6192000000001a00e725" target="_blank" rel="noopener noreferrer" title={social.xiaohongshu || '小紅書'} aria-label={social.xiaohongshu || 'xiaohongshu'}>
-                      <img src="/assets/images/XiaohongshuLOGO.png" alt={social.xiaohongshu || '小紅書'} className="footer-social-icon" />
+                      <img src="/twevil/assets/images/XiaohongshuLOGO.png" alt={social.xiaohongshu || '小紅書'} className="footer-social-icon" />
                     </a>
                     <a href="https://www.threads.com/@foxsaysawawaw" target="_blank" rel="noopener noreferrer" title={social.threads || 'Threads'} aria-label={social.threads || 'threads'}>
-                      <img src="/assets/images/threads-app-icon.png" alt={social.threads || 'Threads'} className="footer-social-icon" />
+                      <img src="/twevil/assets/images/threads-app-icon.png" alt={social.threads || 'Threads'} className="footer-social-icon" />
                     </a>
                   </div>
                 </div>
