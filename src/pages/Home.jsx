@@ -5,7 +5,7 @@ export default function Home() {
   const { lang, t } = useTranslation()
   const sections = t('home.sections') || []
     const imageName = lang === 'zh-Hant' ? 'index_zh.jpg' : 'index_cn.jpg'
-    const imageSrc = `/assets/images/${imageName}`
+    const imageSrc = `/twevil/assets/images/${imageName}`
   
     return (
         <>
