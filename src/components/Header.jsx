@@ -12,9 +12,6 @@ export default function Header() {
       const $ = window.jQuery || window.$
       if ($ && $.fn && typeof $.fn.slicknav === 'function') {
         const el = $('#main-menu')
-        // If a slicknav menu was created earlier (before React mounted) it can
-        // appear as a duplicate/ghost. Remove stale instances unless this
-        // #main-menu already has the plugin attached.
         const existing = $('.slicknav_menu')
         if (existing.length && !el.data('plugin_slicknav')) {
           existing.remove()
@@ -51,6 +48,7 @@ export default function Header() {
   const d = now.getDate()
   const w = zhWeek[now.getDay()]
   const dateStr = `${y}年${m}月${d}日 ${w}`
+
   return (
     <div className="header-area">
       <div className="container-fluid">
@@ -106,7 +104,8 @@ export default function Header() {
               <div className="col-12 col-md-12 main_nav_cover" id="nav">
                 <ul id="main-menu">
                   <li>
-                    <a href="/">主頁</a>
+                    {/* Changed <a> to <Link> */}
+                    <Link to="/">主頁</Link>
                   </li>
 
                   <li>
@@ -118,101 +117,102 @@ export default function Header() {
                     <ul className="sub-menu">
 
                       <li className="menu-item-has-children">
-                        <a href="pre_story">受害者故事前言</a>
+                         {/* Changed to Link */}
+                        <Link to="/pre_story">受害者故事前言</Link>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2014 - 15</a>
                         <ul className="sub-menu">
-                          <li><a href="201415_1">下咒女</a></li>
+                          <li><Link to="/201415_1">下咒女</Link></li>
                         </ul>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2017</a>
                         <ul className="sub-menu">
-                          <li><a href="2017_1">設計系學生</a></li>
-                          <li><a href="2017_2">知名運動女神</a></li>
+                          <li><Link to="/2017_1">設計系學生</Link></li>
+                          <li><Link to="/2017_2">知名運動女神</Link></li>
                         </ul>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2018</a>
                         <ul className="sub-menu">
-                          <li><a href="2018_1">紅鶴姐姐</a></li>
+                          <li><Link to="/2018_1">紅鶴姐姐</Link></li>
                         </ul>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2019</a>
                         <ul className="sub-menu">
-                          <li><a href="2019_1">遊戲女</a></li>
-                          <li><a href="2020_3">虛假前妻</a></li>
+                          <li><Link to="/2019_1">遊戲女</Link></li>
+                          <li><Link to="/2020_3">虛假前妻</Link></li>
                         </ul>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2020</a>
                         <ul className="sub-menu">
-                            <li><a href="2020_1">小後苑女</a></li>
-                            <li><a href="2020_2">茶葉蛋女</a></li>
+                            <li><Link to="/2020_1">小後苑女</Link></li>
+                            <li><Link to="/2020_2">茶葉蛋女</Link></li>
                         </ul>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2022</a>
                         <ul className="sub-menu">
-                            <li><a href="2022_1">假表妹</a></li>
+                            <li><Link to="/2022_1">假表妹</Link></li>
                         </ul>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2023</a>
                         <ul className="sub-menu">
-                          <li><a href="2023_1">被搶家女</a></li>
-                          <li><a href="2023_4">投資男</a></li>
-                          <li><a href="2023_6">健身房女A</a></li>
-                          <li><a href="2023_5">健身房女B</a></li>
-                          <li><a href="2023_2">健身房女C</a></li>
-                          <li><a href="2023_3">健身房同事</a></li>
+                          <li><Link to="/2023_1">被搶家女</Link></li>
+                          <li><Link to="/2023_4">投資男</Link></li>
+                          <li><Link to="/2023_6">健身房女A</Link></li>
+                          <li><Link to="/2023_5">健身房女B</Link></li>
+                          <li><Link to="/2023_2">健身房女C</Link></li>
+                          <li><Link to="/2023_3">健身房同事</Link></li>
                         </ul>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2024</a>
                         <ul className="sub-menu">
-                          <li><a href="2024_3">PTT吃飯群 投資詐騙女</a></li>
-                          <li><a href="2024_4">PTT吃飯群 代訂私廚男</a></li>
-                          <li><a href="2024_1">精品女</a></li>
-                          <li><a href="2024_2">德州朋友群</a></li>
-                          <li><a href="2024_5">紅髮艾德女</a></li>
+                          <li><Link to="/2024_3">PTT吃飯群 投資詐騙女</Link></li>
+                          <li><Link to="/2024_4">PTT吃飯群 代訂私廚男</Link></li>
+                          <li><Link to="/2024_1">精品女</Link></li>
+                          <li><Link to="/2024_2">德州朋友群</Link></li>
+                          <li><Link to="/2024_5">紅髮艾德女</Link></li>
                         </ul>
                       </li>
 
                       <li className="menu-item-has-children">
                         <a href="#">2025</a>
                         <ul className="sub-menu">
-                          <li><a href="2025_2">搬家女</a></li>
-                          <li><a href="2025_4">400萬女</a></li>
-                          <li><a href="2025_1">歐洲男</a></li>
-                          <li><a href="2025_3">成都女</a></li>
+                          <li><Link to="/2025_2">搬家女</Link></li>
+                          <li><Link to="/2025_4">400萬女</Link></li>
+                          <li><Link to="/2025_1">歐洲男</Link></li>
+                          <li><Link to="/2025_3">成都女</Link></li>
                         </ul>
                       </li>
                     </ul>
                   </li>
 
                   <li className="menu-item-has-children">
-                    <a href="category-masonry.html">犯罪紀錄判決書</a>
+                    <a href="#">犯罪紀錄判決書</a>
                     <ul className="sub-menu">
-                      <li><a href="pre_judgment">判決書前言</a></li>
-                      <li><a href="judgment_1">逃兵役被關兩月</a></li>
-                      <li><a href="judgment_2">詐欺被判關一年兩個月</a></li>
-                      <li><a href="judgment_3">詐欺撤銷緩刑確定入獄</a></li>
-                      <li><a href="judgment_4">起訴中案件 即將通緝</a></li>
+                      <li><Link to="/pre_judgment">判決書前言</Link></li>
+                      <li><Link to="/judgment_1">逃兵役被關兩月</Link></li>
+                      <li><Link to="/judgment_2">詐欺被判關一年兩個月</Link></li>
+                      <li><Link to="/judgment_3">詐欺撤銷緩刑確定入獄</Link></li>
+                      <li><Link to="/judgment_4">起訴中案件 即將通緝</Link></li>
                     </ul>
                   </li>
 
-                  <li><a href="report">性病報告</a></li>
+                  <li><Link to="/report">性病報告</Link></li>
                 </ul>
               </div>
             </div>
