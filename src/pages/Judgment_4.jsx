@@ -28,7 +28,6 @@ const selectedHtml = lang === 'zh-Hans' ? htmlSC : html
                         Your browser does not support the video tag.
                       </video>
                     </figure>
-                    <h2>{t('playVideo')}</h2>
                   </div>
             <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/j4/1.jpg" alt="story 1" /></a></figure></div>
             <div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/j4/2.jpg" alt="story 2" /></a></figure></div>
