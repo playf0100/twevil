@@ -208,7 +208,7 @@ export default function Header() {
                       <li><Link to="/judgment_1">逃兵役被關兩月</Link></li>
                       <li><Link to="/judgment_2">詐欺被判關一年兩個月</Link></li>
                       <li><Link to="/judgment_3">詐欺撤銷緩刑確定入獄</Link></li>
-                      <li><Link to="/judgment_4">起訴中案件 即將通緝</Link></li>
+                      <li><Link to="/judgment_4">臺灣彰化地方法院通緝書</Link></li>
                     </ul>
                   </li>
 
