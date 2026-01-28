@@ -69,7 +69,7 @@ export default function Story2025_4() {
                   }
                 </div>
                   <div>
-									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2025_4/1.JPG" alt="story 1" /></a></figure></div>
+									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2025_4/1.PNG" alt="story 1" /></a></figure></div>
 									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2025_4/2.JPG" alt="story 2" /></a></figure></div>
 									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2025_4/3.JPG" alt="story 3" /></a></figure></div>
 									<div className="item"><figure className="alith_post_thumb_big"><a href="#"><img src="/twevil/assets/images/storys/2025_4/4.JPG" alt="story 4" /></a></figure></div>
